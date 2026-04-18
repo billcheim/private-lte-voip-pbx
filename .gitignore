@@ -1,7 +1,5 @@
-<< 'EOF'
 *.log
 *.tmp
 *.bak
 .DS_Store
 Thumbs.db
-EOF

@@ -1,4 +1,3 @@
-<< 'EOF'
 # Private LTE VoIP PBX with OAI, USRP B210, and Asterisk
 
 This repository documents a lab-style private LTE VoIP PBX architecture using:
@@ -42,4 +41,3 @@ It is intended to show how private LTE data connectivity can be combined with SI
 4. User dials extension `200` for audio test
 5. User dials extension `101` for endpoint-to-endpoint calling
 
-EOF

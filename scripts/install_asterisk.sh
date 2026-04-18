@@ -1,4 +1,3 @@
-<< 'EOF'
 #!/usr/bin/env bash
 set -e
 
@@ -8,4 +7,3 @@ sudo apt install -y asterisk
 sudo systemctl enable asterisk
 sudo systemctl restart asterisk
 sudo systemctl status asterisk --no-pager
-EOF
