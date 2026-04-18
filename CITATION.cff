@@ -3,8 +3,8 @@ title: "Private LTE VoIP PBX with OAI, USRP B210, and Asterisk"
 message: "If you use this repository, please cite it using the metadata below."
 type: software
 authors:
-  - family-names: "Cheim"
-    given-names: "Bill"
+  - family-names: "Cheimaras"
+    given-names: "Vasileios"
 repository-code: "https://github.com/billcheim/private-lte-voip-pbx"
 license: MIT
 version: "v1.0.0"
