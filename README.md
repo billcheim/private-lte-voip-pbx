@@ -1,43 +1,46 @@
 # Private LTE VoIP PBX with OAI, USRP B210, and Asterisk
 
-This repository documents a lab-style private LTE VoIP PBX architecture using:
+Private LTE voice lab and documentation project combining:
 
 - OpenAirInterface (OAI)
 - USRP B210
 - Asterisk PBX
 - Android SIP softphones
+- Raspberry Pi management node
 
-## Scope
+---
 
-This is a documentation and example configuration repository.
+## Overview
 
-It is intended to show how private LTE data connectivity can be combined with SIP-based VoIP through Asterisk.
+This repository documents how a private LTE network can be combined with SIP-based VoIP services using Asterisk PBX.
 
-## Included
+It focuses on lab environments, research use, and private telecom experimentation.
 
-- architecture notes
-- example Asterisk configs
-- Android SIP client setup
-- example integration notes for OAI
-- helper scripts
+---
 
-## Not included
+## Features
 
-- full production deployment
-- IMS / VoLTE stack
-- hardware-specific RF tuning
+- Private LTE architecture notes
+- SIP over LTE data model
+- Example Asterisk configuration
+- Android client setup
+- PBX menu / extension examples
+- GitHub + Zenodo research publishing workflow
 
-## Repository layout
+---
 
-- `docs/` project documentation
-- `configs/asterisk/` example PBX configuration
-- `scripts/` helper scripts
+## Architecture
 
-## Example call flow
-
-1. UE attaches to private LTE network
-2. UE gets IP connectivity
-3. SIP client registers to Asterisk
-4. User dials extension `200` for audio test
-5. User dials extension `101` for endpoint-to-endpoint calling
+```text
+UE Device
+   |
+Private LTE RAN
+   |
+OAI EPC / Core
+   |
+IP Network
+   |
+Asterisk PBX
+   |
+SIP Extensions
 
