@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Private LTE VoIP PBX with OAI, USRP B210, and Asterisk"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Cheim"
+    given-names: "Bill"
+repository-code: "https://github.com/billcheim/private-lte-voip-pbx"
+license: MIT
+version: "v1.0.0"
+abstract: "Documentation and example configuration for a private LTE VoIP PBX lab architecture using OpenAirInterface, USRP B210, Asterisk, and Android SIP clients."
+keywords:
+  - Asterisk
+  - OpenAirInterface
+  - USRP B210
+  - LTE
+  - VoIP
+  - SIP
+  - PBX

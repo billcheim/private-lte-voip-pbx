@@ -1,0 +1,22 @@
+{
+  "title": "Private LTE VoIP PBX with OAI, USRP B210, and Asterisk",
+  "description": "Documentation and example configuration for a private LTE VoIP PBX lab architecture using OpenAirInterface, USRP B210, Asterisk, and Android SIP clients.",
+  "creators": [
+    {
+      "name": "Bill Cheim"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Asterisk",
+    "OpenAirInterface",
+    "USRP B210",
+    "LTE",
+    "VoIP",
+    "SIP",
+    "PBX",
+    "Private LTE"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
