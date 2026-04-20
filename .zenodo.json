@@ -3,7 +3,7 @@
   "description": "Documentation and example configuration for a private LTE VoIP PBX lab architecture using OpenAirInterface, USRP B210, Asterisk, and Android SIP clients.",
   "creators": [
     {
-      "name": "Bill Cheim"
+      "name": "Cheimaras Vasileios"
     }
   ],
   "license": "MIT",
